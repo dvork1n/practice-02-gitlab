@@ -1,0 +1,9 @@
+stages:
+  - test
+
+job1:
+  stage: test
+  tags:
+    - linux
+  script:
+    - echo "CI/CD is working!"
